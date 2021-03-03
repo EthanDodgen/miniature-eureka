@@ -1,6 +1,6 @@
 const express = require("express")
 const path = require('path')
-const { db } = require("./Develop/db/db")
+const db = require("./Develop/db/db")
 
 const app = express()
 app.use(express.urlencoded({
