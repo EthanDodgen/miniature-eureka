@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express()
-//const { db } = require("./Develop/db/db")
+const { db } = require("./Develop/db/db")
 
 // let noteTitle
 // let noteText
